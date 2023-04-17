@@ -33,13 +33,15 @@ body{
     border-radius: 11px;
     margin-bottom: 20px;
   }
-.result {
-
-    padding-left: 135px;
-    margin: 15px auto 15px;
+#result {
+    padding: 30px 5px 30px 5px;
     height: 120px;
-    background-color: rgb(9, 9, 9);
+    background-color: rgb(18, 18, 18);
     border: transparent;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 45px;
+    width: 312px;
 }
 
 .container {
@@ -49,20 +51,25 @@ body{
 
 button {
     border: transparent;
-    padding: 23px;
+    padding: 19px 19px 19px 19px;
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(10, 10, 10);
     color: wheat;
     box-shadow: -2px -3px 3px rgb(26, 26, 26);
-    max-width: 30px;
+    width: 56px;
     font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
 }
 
 button:hover{
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
+.oprator{
+    color: rgb(34, 209, 34);
+    font-weight: bolder;
+}
 .equal{
     background-color: rgb(181, 8, 181);
 }
